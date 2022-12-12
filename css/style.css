@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(28, 28, 86);
+}
+
+#play-game{
+    margin-top: 30px;
+    background-color: white;
+    border: none;
+    color: rgb(28, 28, 86);
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 0px;
+    transition: 0.3s;
+}
+
+#choices-level{
+    width: 150px;
+    padding: 10px 20px;
+}
+
+#play-game:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+.container-header{
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    margin: 3em auto;
+    display: flex;
+   justify-content: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicked{
+    background-color: aqua;
+}
